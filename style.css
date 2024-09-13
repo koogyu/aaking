@@ -1,0 +1,46 @@
+body{
+    font-family:メイリオ,Arial,sans-serif;
+    background-color:#eef0f0;
+    margin:50px;
+}
+
+h1{
+    padding-bottom:30px;
+    border-bottom:1px solid;
+}
+
+h2{
+    margin:0;
+    padding-bottom:10px;
+}
+
+h3{
+    margin:0;
+}
+
+h4{
+    margin:0;
+    font-weight:normal;
+    padding-bottom:5px;
+}
+
+p{
+    margin:0;
+}
+
+.cts{
+    border-bottom:1px solid;
+    margin-bottom:1em;
+}
+
+.blc{
+    padding-bottom:2em;
+}
+
+#windowImage{
+    zoom: 0.8;
+}
+
+.accent {
+    font-weight: bold;
+  }

@@ -1,90 +1,200 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+  <head>
+    <meta charset="utf-8">
+    <title>AA王</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>AA王</h1>
+    <div class="cts">
+        <div class="blc">
+            <h2>目次</h2>
+            <ul>
+                <li><a href="#attention">注意事項</a></li>
+                <li><a href="#overview">概要</a></li>
+                <li><a href="#device">動作環境</a></li>
+                <li><a href="#how-to-use">使用方法</a></li>
+                <li><a href="#window">画面・コントロール</a></li>
+                <li><a href="#consideration">実装検討中の機能</a></li>
+                <li><a href="#message">作者メッセージ</a></li>
+                <li><a href="#update">更新履歴</a></li>
+            </ul>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
+    </div>
+    <div class="cts" id="attention">
+      <div class="blc">
+        <h2>★注意事項★</h2>
+        <p>本プログラムを使用した結果、発生したいかなる損害、 <br>損傷等に対しても作者は一切責任を負いません。ご了解願います。</p>
+        <p>転載、再配布はお控えください。</p>
+        <p>質問やバグ報告、ご意見などは下記メールアドレスまでお願い致します。<br><br>koogyu765@gmail.com</p>
       </div>
-      <div class="clear"></div>
     </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
+    <div class="cts" id="overview">
+      <div class="blc">
+        <h2>概要</h2>
+        <p>AA王はAA・コピペ・URLなどの保存・検索機能によって入力支援や管理を行うソフトです。</p>
       </div>
-      <span class="btn message">さっそく開発する</span>
     </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
+    <div class="cts" id="device">
+      <div class="blc">
+        <h2>動作環境</h2>
+        <p>Microsoft Windows 10,11</p>
+      </div>
     </div>
-  </footer>
-</body>
+    <div class="cts" id="how-to-use">
+      <div class="blc">
+        <h2>基本的な使用方法</h2>
+        <ul>
+          <li>インストール</li>
+          <p>下記のリンクからzipファイルをダウンロードしお好きなディレクトリに解凍してください</p>
+          <br>
+          <li>アンインストール</li>
+          <p>すべてのファイルを削除してください。</p>
+          <br>
+          <li>起動方法</li>
+          <p>AA王 v(バージョン名).exeから起動できます。<br>例：AA王 v0.1.0.exe</p>
+          <br>
+          <li>その他</li>
+          <p>保存したデータはdata/data.jsonに保存されています。<br>またその他設定項目などがdata/setting.jsonに保存されています。<br>原則どちらも編集などは行わないでください。</p>
+        </ul>
+      </div>
+    </div>
+    <div class="cts" id="window">
+      <div class="blc">
+        <h2>画面・コントロール</h2>
+        <img id="windowImage" src="image.jpg">
+        <br>
+        <ul>
+          <li class="accent">タブ・リスト</li>
+          <p>一覧タブと検索結果タブがあります。</p>
+          <p>一覧タブのリストには登録されているコンテンツがid順に一覧表示されます。</p>
+          <p>検索結果タブのリストには検索結果として抽出されたコンテンツが優先度順に表示されます。</p>
+        </ul>
+        <ul>
+          <li class="accent">表示画面</li>
+          <ul>
+            <li>ジャンル</li>
+            <p>登録するコンテンツのジャンルを選択します。</p>
+            <li>タイトル</li>
+            <p>登録するコンテンツのタイトルを入力します。<br>タイトルが入力されているとリストにタイトルが表示されます。<br>入力は任意です。</p>
+            <li>タグ</li>
+            <p>登録するコンテンツのタグを入力します。<br>検索時に引っかかってほしい単語を入力しましょう。</p>
+            <p>タイトルが未入力だとリストにタグが表示されます。<br>入力は必須です。</p>
+            <li>説明</li>
+            <p>登録するコンテンツの説明を入力します。メモとして活用できます。<br>入力は任意です。</p>
+            <li>本文</li>
+            <p>登録するコンテンツの本文を入力します。AA・コピペ・URLなど登録したい文字列を入力しましょう。<br>入力は必須です。</p>
+            <li>優先度</li>
+            <p>登録するコンテンツの優先度を入力します。優先度は未入力または1～999の整数です。</p>
+            <p>検索結果は優先度順に表示されるため、よく使うコンテンツの優先度を高く設定するのがおすすめです。</p>
+            <p>入力は任意です。</p>
+          </ul>
+        </ul>
+        <ul>
+          <li class="accent">各種ボタン</li>
+          <ul>
+            <li>新規作成ボタン</li>
+            <p>選択状態を解除し新規作成画面に移行します。新しくコンテンツを保存する際には新規作成画面から行ってください。</p>
+            <li>保存ボタン</li>
+            <p>内容を入力後に押すことでコンテンツを保存します。新しくコンテンツを保存する際には新規作成画面から行ってください。</p>
+            <li>書換ボタン</li>
+            <p>選択しているコンテンツの内容を変更後に押すことで、内容を書き換えることができます。</p>
+            <li>削除ボタン</li>
+            <p>選択しているコンテンツの内容を削除することができます。</p>
+            <li>Sikiボタン</li>
+            <p>本文の内容をSikiに書き込むボタンです。初期状態では使用不可になっています。<br>以下の注意事項と導入手順を読み、使用したい人のみ自己責任で使用してください。</p>
+            <br>
+            <h3>-注意事項-</h3>
+            <p>この機能はSikiと連携して動作する機能ではなく、外部操作によって書き込みを自動化しています。</p>
+            <p>具体的には<br>ウィンドウタイトルに"Siki"が含まれるウィンドウをアクティブ化</p>
+            <p>➡️oキー（Sikiのデフォルト設定で書き込み欄にフォーカスするショートカットキー）を押しSikiの書き込み欄にフォーカス</p>
+            <p>➡️クリップボードを用いてctrl+Vで本文の内容をペースト</p>
+            <p>➡️SHIFT+Enter（Sikiのデフォルト設定で書き込みをするショートカットキー）を押し書き込み</p>
+            <p>という動作を自動で行う機能です。</p>
+            <p>これを踏まえて以下の点に注意してください。</p>
+            <ul>
+              <li>書き込みが完了するまで他の操作をしない</li>
+              <p>フォーカスを別のところに移したり、他のウィンドウをアクティブ化するとそこでキー操作が行われてしまいます。</p>
+              <li>動作があまり早くない</li>
+              <p>動作はあまり早くないです。特に1回目や一定時間が経ってから再度押した場合は時間がかかることが多いです。（おそらくキャッシュの影響）</p>
+              <p>そのため手動でコピペしたほうが早いという場面もあると思います。<s>じゃあ何で作ったんだよ</s>ワンクリックで書き込みできるという点は便利だと思います。</p>
+              <li>誤操作の可能性</li>
+              <p>上で説明した通りあくまで外部操作をするものなので誤操作の可能性が考えられます。</p>
+              <p>例えば<br>・Sikiの他にウィンドウタイトルに"Siki"の文字列が含まれるウィンドウがある場合そのウィンドウがアクティブ化される可能性がある</p>
+              <p>・動作中に他のウィンドウを操作した場合そのウィンドウで操作が行われる</p>
+              <p>・Sikiで書き込もうと思っていたスレッドとは違うスレッドを開いていた場合誤爆してしまう<br>など。</p>
+              <li>ショートカットキーの設定</li>
+              <p>Sikiのデフォルトのショートカットキー設定を元にしているため、ショートカットキーを変更していた場合意図しない動作をする可能性があります。</p>
+            </ul>
+            <h3>-導入手順-</h3>
+            <p>以下のリンクからPostUsingSiki_win32.exeをダウンロードし、AA王 v(バージョン名).exeと同じ階層にペーストしてください。</p>
+            <p>（win32とありますが64bitでも動きます。）</p>
+            <h3>-その他-</h3>
+            <p>・Sikiの設定➡️キーボードから全体を選びoキーを書き込み欄を開くに設定しておくと<br>　フォーカスがどこにあっても書き込み欄にフォーカスが向くようになるため動作の安定性が増します。</p>
+            <p>・当初は爆速書き込みができないかと考えていましたが正直微妙です…ですが一応作ったのでこのような形で公開しました。</p>
+          </ul>
+        </ul>
+        <ul>
+          <li class="accent">検索機能</li>
+          <ul>
+            <li>検索対象</li>
+              <p>検索対象を選びます。例えばAAだけを選ぶとジャンルがAAのコンテンツのみ検索対象になります。</p>
+            <li>検索範囲</li>
+              <p>検索範囲を選びます。例えばタイトルを選んで検索すると検索ワードがタイトルに含まれるコンテンツが検索結果に表示されます。</p>
+            <li>検索欄</li>
+              <p>検索ワードを入力します。複数ワードで検索したい場合はワード間を半角スペースで区切るとAND検索をします。</p>
+              <p>例えば「いぬ ねこ」と入力して検索すると「いぬ」と「ねこ」がどちらも含まれるコンテンツが検索結果に表示されます。</p>
+              <p>（v0.1.0現在はOR検索や正規表現による検索機能はありません）</p>
+            <li>検索ボタン</li>
+              <p>検索結果を表示します。</p>
+          </ul>
+        </ul>
+        <ul>
+          <li class="accent">ショートカットキー</li>
+          <ul>
+            <li>新規作成ボタン</li>
+              <p>Ctrl+N</p>
+            <li>保存ボタン</li>
+              <p>Ctrl+S</p>
+            <li>書換ボタン</li>
+              <p>Ctrl+R</p>
+            <li>削除ボタン</li>
+              <p>Ctrl+D</p>
+            <li>コピーボタン</li>
+              <p>Ctrl+C</p>
+              <p>テキストを選択している場合はそちらのコピーが優先されます。</p>
+            <li>Sikiボタン</li>
+              <p>Ctrl+K</p>
+            <li>検索欄にフォーカス</li>
+              <p>Ctrl+F</p>
+            <li>検索ボタン</li>
+              <p>検索欄フォーカス時にEnter</p>
+            <li>タブの切り替え</li>
+              <p>Ctrl+T</p>
+            <li>コンテンツ表示切り替え</li>
+              <p>コンテンツを表示している状態で↑↓（上下キー）</p>
+          </ul>
+        </ul>
+      </div>
+    </div>
+    <div class="cts" id="consideration">
+      <div class="blc">
+        <h2>実装検討中の機能</h2>
+        <ul>
+          <li>dataファイル（setting.json, data.json）のバックアップ機能</li>
+          <li>画像URL保存時に画像をローカル保存する機能</li>
+          <li>ダークテーマ以外の配色追加</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cts" id="message">
+      <div class="blc">
+        <h2>作者メッセージ</h2>
+        <p>このソフトは匿名掲示板への書き込みなどで<br>「実況スレであのAAを貼りたい！」「今すぐあの画像を貼りたい！」「１秒でも早くあのコピペを貼りたい！」<br>という<s>作者の</s>要望に答えるために製作しました。</p>
+        <p>開発環境やGUIは普段愛用しているRomTenma氏製作の汎用掲示板ビューアSikiを参考にさせていただきました。</p>
+        <p>また作者はIT初心者の学生のため高度な技術はありません。<br>スキルアップや経験、自分での使用を主目的として、配布はついで程度の考えですのでその点ご了承下さい。</p>
+      </div>
+    </div>
+  </body>
 </html>
